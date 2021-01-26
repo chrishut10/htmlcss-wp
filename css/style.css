@@ -11,6 +11,7 @@
   content: "";
   display: table;
   clear: both;
+
 }
 
 #container{
@@ -20,32 +21,75 @@
 /* parte header */
 
 header{
-  height: 80px;
+  height: 120px;
   /* debug */
   background-color: pink;
 }
 
+#logo{
+  height: 40px;
+  vertical-align: middle;
+  width: auto;
+  margin: 10px 5px;
+}
 
-.blocco{
+#headernav{
+  height: 40px;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+#headernav li{
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 10px;
+
+}
+
+#headernav li:last-child{
+  margin-right: 0;
+}
+
+#headernav li a{
+  text-decoration: none;
+  color: grey;
+  font-size: 10px;
+}
+
+/* parte main */
+
+#banner{
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
   margin-top: 20px;
   /* debug */
   background-color: lightyellow;
-  height: 200px;
+  height: 50vh;
+
 }
+
 
 
 section{
   background-color: blue;
+
 }
 
 
 .sezionet{
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
+  padding: 20px 0;
   /* debug */
   background-color: skyblue;
-  height: 50px;
+  height: 80px;
+}
+
+p{
+  color: grey;
+  font-size: 12px;
 }
 
 .sezione2 {
@@ -54,8 +98,14 @@ section{
   margin-bottom: 10px;
   /* debug */
   background-color: skyblue;
-  height: 250px;
+  height: 400px;
 }
+
+.sezione2 img{
+  height: 200px;
+  width: 100%;
+}
+
 
 .sezione3{
   float: left;
@@ -63,8 +113,26 @@ section{
   margin: 0 10px;
   /* debug */
   background-color: orange;
-  height: 250px;
+  height: 400px;
+
 }
+
+.sezione3 img{
+  height: 200px;
+  width: 100%;
+}
+
+h5{
+ margin: 5px 0;
+
+}
+
+/* #middle{
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+} */
 
 
 /* zona footer */
@@ -73,4 +141,16 @@ footer{
   height: 40px;
   /* debug */
   background-color: darkviolet;
+  text-align: center;
+}
+
+.love{
+  padding: 10px;
+  text-align: center;
+}
+
+
+.heart{
+  color: red;
+  margin: 10px 0;
 }

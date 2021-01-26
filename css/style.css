@@ -1,0 +1,76 @@
+
+
+/* regole generali css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#container{
+  margin: 20px 20%;
+}
+
+/* parte header */
+
+header{
+  height: 80px;
+  /* debug */
+  background-color: pink;
+}
+
+
+.blocco{
+  margin-top: 20px;
+  /* debug */
+  background-color: lightyellow;
+  height: 200px;
+}
+
+
+section{
+  background-color: blue;
+}
+
+
+.sezionet{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
+  /* debug */
+  background-color: skyblue;
+  height: 50px;
+}
+
+.sezione2 {
+  float: left;
+  width: 25%;
+  margin-bottom: 10px;
+  /* debug */
+  background-color: skyblue;
+  height: 250px;
+}
+
+.sezione3{
+  float: left;
+  width: calc(50% - 20px);
+  margin: 0 10px;
+  /* debug */
+  background-color: orange;
+  height: 250px;
+}
+
+
+/* zona footer */
+footer{
+  margin: 5px 0;
+  height: 40px;
+  /* debug */
+  background-color: darkviolet;
+}
